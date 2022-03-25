@@ -1,0 +1,42 @@
+/* ----------------1. Element selector--------------------- */
+
+/* h1,
+h2,
+p {
+  color: darkred;
+}
+
+h1 {
+  color: coral;
+} */
+
+/* ----------------ID selector---------------------------- */
+/* #heading {
+  color: burlywood;
+  background-color: cadetblue;
+}
+
+#footer {
+  color: brown;
+  background-color: darkcyan;
+}
+
+#heading,
+#footer {
+  color: darkslateblue;
+} */
+
+/*--------------------- Class selector--------------------- */
+/* in class selector you can add couple of more classes in diverse section */
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background-color: grey;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
