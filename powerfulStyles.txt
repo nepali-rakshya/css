@@ -1,0 +1,22 @@
+which CSS is more powerful?
+
+1. inline
+2. internal
+3. external
+
+Answer,
+
+The internal css is stronger compared to external css because of the OVERWRITING.
+
+
+Again, 
+
+The inline css is the strongest one compared to the internal css because of the OVERWRITING.
+
+
+Hence,
+
+external css < internal css < inline css.
+
+
+
