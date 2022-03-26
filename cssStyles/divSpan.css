@@ -1,0 +1,17 @@
+/* div span */
+/* div are block level elements and span are inline level elements */
+/* div and span are used for grouping */
+/* when you use div it starts a new block or a new line whereas span acts exact opposite as it works inline and doesn't create new block */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background-color: grey;
+}
+
+span {
+  text-transform: uppercase;
+}
