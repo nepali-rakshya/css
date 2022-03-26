@@ -1,0 +1,45 @@
+/* first div ko lai background color pink dim
+    second div ko lai bgc smgth light 
+    third div ko lai bgc ni pink nai dim */
+
+/* h1 haru lai red dim
+    h2 lai brown nae dim */
+
+/* first ko dueta p lai darkorange dim
+    last ko p lai blue dim */
+
+/* first ra last lai black solid box ma rakhne */
+
+/* -------------------------START------------------------------- */
+
+.firstset {
+  background: pink;
+}
+
+.secondset {
+  background: lightblue;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: brown;
+}
+
+.dark {
+  color: darkorange;
+}
+
+.blue {
+  color: blue;
+}
+
+.box {
+  border: 2px solid black;
+}
+
+#black {
+  color: black;
+}
