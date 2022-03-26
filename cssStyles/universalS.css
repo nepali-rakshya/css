@@ -1,0 +1,28 @@
+/* last rule and specificity Universl selector */
+
+/*------------------------ last rule --------------------------*/
+/* doesn't matter what you have used in the beginning the rule which you have written at the end is always gonna overwrite it. */
+
+/* p {
+  color: red;
+}
+p {
+  color: blue;
+} */
+
+/* ------------------specificity------------------------------ */
+/* inline > id > class > elements */
+
+/* .red {
+  color: red;
+}
+p {
+  color: blue;
+} */
+
+/* ------------------universal selector------------------------ */
+/* astirck is used for universal selector */
+
+* {
+  color: blue;
+}
