@@ -1,0 +1,38 @@
+/* ----------------color properties -----------------------------*/
+/* color background color */
+
+/* #first {
+  color: lightslategray;
+  background-color: chocolate;
+}
+
+#second {
+  color: crimson;
+  background: yellow;
+} */
+
+/* ----------------color names 140----------------------------- */
+/* you can directly use the color with the inital letter */
+
+/* --------------------(RGB) RED GREEN BLUE----------------------- */
+/* pick color value from 0 to 255 */
+
+#first {
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  /* 0 on all the values gives black color */
+  /* 255 on all the values gives white color */
+}
+
+#second {
+  background-color: rgb(0, 255, 0);
+  color: rgb(255, 0, 0);
+}
+
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(100, 100, 100);
+}
+body {
+  background: rgb(100, 34, 210);
+}
