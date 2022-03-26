@@ -1,0 +1,16 @@
+/* inheritance */
+/* the properties of the parent element is always inherited by their children unless they overwrite them. */
+
+body {
+  font-family: monospace;
+}
+
+div {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  border: 2px solid black;
+}
+
+h2 {
+  color: green;
+}
