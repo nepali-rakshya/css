@@ -1,0 +1,30 @@
+/* RCBA where A stands for opacity and transparent 
+    value starts from 0 to 1*/
+
+/* in RGB the format is rgb(_,_,_) where 0 is the lowest one and 255 is the highest one 0 in all gives black and 255 in all gives white */
+
+/* in case of RGBA the A stands for opacity and transparent and it ranges from 0 to 1 and its format is rgba(_,_,_,_) and the last position will have the value ranging from 0 to 1 which gives the property of transparency */
+
+#first {
+  color: rgb(200, 123, 156);
+  background: rgba(255, 0, 0, 0.3);
+}
+
+#second {
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#three {
+  color: rgb(29, 100, 245);
+  background: rgba(0, 255, 0, 0.45);
+}
+
+#four {
+  color: rgb(104, 9, 112);
+  background: rgba(38, 0, 255, 0.3);
+}
+
+body {
+  background: rgba(200, 0, 0, 0.2);
+}
