@@ -1,0 +1,24 @@
+/* 
+HEX
+values format #RRGGBB
+the value ranges from 0 to 15
+123456789 10(A) 11(B), 12(C), 13(D), 14(E), 15(F)
+#FF0000 - Red
+#00FF00 - Green
+#0000FF - Blue
+*/
+
+#first {
+  color: rgba(151, 40, 40, 0.856);
+  background: #000;
+}
+
+#second {
+  color: #fff;
+  background: #000;
+}
+
+#third {
+  color: #0000ff;
+  background: #f15025;
+}
