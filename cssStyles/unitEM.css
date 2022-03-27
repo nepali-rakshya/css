@@ -1,0 +1,33 @@
+/* 
+em : Alile percentage it is also relative unit as it depends upon parent size.
+1 em = 16px the default browser font style 
+1 em: base value
+
+whatever is the size of the default browser font style the em is gonna change accordingly. similar to the case we had witnessed in percentage which depended upon the window size here the font size depends upon the default font size of the window
+
+for example;
+if the default font size of the browser is 16px then it is equal to 1em and if we write 2em then its size in pixel is 16*2 which is equal to 32px.
+
+now, don't have this assumption that the em is always gonna depend upon the browser size, it is a child and obeys it's parents so if the parent is some other element then it's gonna follow its respective parent's footstep.
+*/
+
+.box {
+  font-size: 10px;
+}
+.relative {
+  font-size: 3em;
+}
+
+.absolute {
+  font-size: 30px;
+}
+
+.pixel {
+  background: red;
+  width: 50px;
+}
+
+.percent {
+  background-color: blue;
+  width: 50%;
+}
