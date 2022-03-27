@@ -1,0 +1,24 @@
+/* 
+rem : Relative unit like em and percentage but it depends on root
+1 rem = 16px default browser font style
+
+this one is more interesting!!!
+
+rem depends upon 2 permanent parent and they are root i.e., html element and the browser font size
+
+whereas, 
+
+em also depends upon parent but one is permanent and the other is temporary parent. 
+*/
+
+html {
+  font-size: 64px;
+}
+
+.absolute {
+  font-size: 64px;
+}
+
+.relative {
+  font-size: 1rem;
+}
