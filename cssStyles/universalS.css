@@ -13,16 +13,20 @@ p {
 /* ------------------specificity------------------------------ */
 /* inline > id > class > elements */
 
-/* .red {
+.red {
   color: red;
 }
 p {
   color: blue;
-} */
+}
+
+#here {
+  color: blue;
+}
 
 /* ------------------universal selector------------------------ */
 /* astirck is used for universal selector */
 
-* {
+/*{
   color: blue;
-}
+} */
